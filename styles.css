@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #f0f;
+}
+
+.watch-container {
+    position: relative;
+    display: inline-block;
+}
+
+.watch-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.time-display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: rgb(127, 0, 246);
+}
+
+.buttons button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #00f;
+}
+
+.buttons button:hover {
+    background-color: #0f0;
+}
